@@ -1,0 +1,3 @@
+V0
+Já está peganda a data de hoje. Feito
+Chamo o windows onload para carregar as função no inicio do programa. Feito 
