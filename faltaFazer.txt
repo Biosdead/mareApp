@@ -1,3 +1,23 @@
 V0
 Já está peganda a data de hoje. Feito
 Chamo o windows onload para carregar as função no inicio do programa. Feito 
+
+V0.1
+Mostrar o dia da semana. Feito
+Mostrar a fase da lua. Feito
+Mostrar as alturas das marés. Feito
+
+V0.2
+Inserir os icônes da lua.
+
+V0.3
+Fazer o mês de Fevereiro.
+
+V0.4
+Fazer o mês de março.
+E pegar o dia de hoje e plotar os dados.
+
+v1.0
+Mostrar a previsão do clima do dia.
+
+

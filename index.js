@@ -1,5 +1,6 @@
 window.onload = function(){
     GetDay();
+    GetDayTides("01",Janeiro);
 };
 
 function GetDay(){    
@@ -10,4 +11,26 @@ function GetDay(){
     var year = today.getFullYear();
     var realDate = day + "/" + month + "/" + year;
     document.getElementById("Today").innerText += "" + realDate + "";
+}
+
+function GetDayTides(day,month) {
+    var weekDay = month[day].DIA;
+    var FirstTide =  month[day]["BAIXA1"]["Horário"];
+    var FirstTideHeight = month[day]["BAIXA1"]["Altura"];
+    var SecondTide =  month[day]["ALTA1"]["Horário"];
+    var SecondTideHeight = month[day]["ALTA1"]["Altura"];
+    var ThirdTide =  month[day]["BAIXA2"]["Horário"];
+    var ThirdTideHeight = month[day]["BAIXA2"]["Altura"];
+    var FourthTide =  month[day]["BAIXA2"]["Horário"];
+    var FourthTideHeight = month[day]["BAIXA2"]["Altura"];
+    document.getElementById("weekDay").innerText = "(" + weekDay + ")";
+    document.getElementById("moon").innerText = "LUA " + month[day].LUA;
+    document.getElementById("FirstTide").innerText = FirstTide[0] + "" + FirstTide[1] + "h" + FirstTide[2] + "" + FirstTide[3] + "m";
+    document.getElementById("FirstTideHeight").innerText = FirstTideHeight + " m";
+    document.getElementById("SecondTide").innerText = SecondTide[0] + "" + SecondTide[1] + "h" + SecondTide[2] + "" + SecondTide[3] + "m";
+    document.getElementById("SecondTideHeight").innerText = SecondTideHeight + " m";
+    document.getElementById("ThirdTide").innerText = ThirdTide[0] + "" + ThirdTide[1] + "h" + ThirdTide[2] + "" + ThirdTide[3] + "m";
+    document.getElementById("ThirdTideHeight").innerText = ThirdTideHeight + " m";
+    document.getElementById("FourthTide").innerText = FourthTide[0] + "" + FourthTide[1] + "h" + FourthTide[2] + "" + FourthTide[3] + "m";
+    document.getElementById("FourthTideHeight").innerText = FourthTideHeight + " m";
 }

@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="index.js"></script>
+    <script src="banco.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Maré App</title>
   </head>
@@ -19,35 +20,44 @@
 
     <section class="section has-text-centered">
         <h1 class="title" id="Today"></h1>
-        <h2 class="subtitle">
-          As Marés de hoje, são:
-        </h2>
+        <h2 id="moon">Dia de lua Cheia</h2>
+        <h3 class="subtitle">
+          As Marés de hoje <span id="weekDay"></span>, são:
+        </h3>
       </section>
 
 
-    <nav class="level">
+    <nav id="tides" class="level">
         <div class="level-item has-text-centered">
           <div>
             <p class="heading">Baixa</p>
-            <p class="title">3h44</p>
+            <p id="FirstTide" class="title">3h44</p>
+            <p class="heading">Altura</p>
+            <p id="FirstTideHeight" class="title">1.0 m</p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
             <p class="heading">Alta</p>
-            <p class="title">9h38</p>
+            <p id="SecondTide" class="title">9h38</p>
+            <p class="heading">Altura</p>
+            <p id="SecondTideHeight" class="title">1.0 m</p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
             <p class="heading">Baixa</p>
-            <p class="title">16h05</p>
+            <p id="ThirdTide" class="title">16h05</p>
+            <p class="heading">Altura</p>
+            <p id="ThirdTideHeight" class="title">1.0 m</p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
-            <p class="heading">Alta</p>
-            <p class="title">22h02</p>
+            <p class="heading">Baixa</p>
+            <p id="FourthTide" class="title">16h05</p>
+            <p class="heading">Altura</p>
+            <p id="FourthTideHeight" class="title">1.0 m</p>
           </div>
         </div>
       </nav>
