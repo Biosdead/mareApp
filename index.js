@@ -1,6 +1,6 @@
 window.onload = function(){
     GetDay();
-    GetDayTides("03",Meses[2]);
+    // GetDayTides("03",Meses[2]);
 };
 
 function GetDay(){    
@@ -11,7 +11,7 @@ function GetDay(){
     var year = today.getFullYear();
     var realDate = day + "/" + month + "/" + year;
     document.getElementById("Today").innerText += "" + realDate + "";
-    // GetDayTides(day,Meses[today.getMonth()]); // aqui que chamo a função de plotar os dados
+    GetDayTides(day,Meses[today.getMonth()]); // aqui que chamo a função de plotar os dados
 }
 
 function GetDayTides(day,month) {
