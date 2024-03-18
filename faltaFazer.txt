@@ -15,7 +15,7 @@ Fazer o mês de março. Feito
 E pegar o dia de hoje e plotar os dados. Feito
 
 V0.4
-Inserir os icônes da lua. Feito
+Inserir os icônes da lua. Feito.
 
 V0.5
 Melhorar os icones da lua. Feito.

@@ -27,7 +27,7 @@ function GetDayTides(day,month) {
     var FourthTideHeight = month[day]["ALTA2"]["Altura"];
     document.getElementById("weekDay").innerText = "(" + weekDay + ")";
     document.getElementById("moon").innerText = "LUA " + moonPhase;
-    document.getElementById("moonIcon").src = "/icones/"+moonPhase+".png";
+    document.getElementById("moonIcon").src = "./icones/"+moonPhase+".png";
     document.getElementById("FirstTide").innerText = FirstTide[0] + "" + FirstTide[1] + "h" + FirstTide[2] + "" + FirstTide[3] + "m";
     document.getElementById("FirstTideHeight").innerText = FirstTideHeight + " m";
     document.getElementById("SecondTide").innerText = SecondTide[0] + "" + SecondTide[1] + "h" + SecondTide[2] + "" + SecondTide[3] + "m";
