@@ -28,6 +28,7 @@ Mudar Fonte. Feito.
 V0.7
 Criar butões para ver os próximos dias e os dias anteiroes.
 Fazer o mês de Abril,Maio,Junho,Julho. 
+Reduzir o tamanho da imagen de perfil.
 
 V0.8
 Fazer o mês de Agosto,Setembro.
@@ -37,5 +38,13 @@ Fazer o mês de Outubro,Novembro,Dezembro.
 
 v1.0
 Mostrar a previsão do clima do dia.
+https://hgbrasil.com/status/weather
+Essa api tem até icones sobre as fases da lua.
+https://learn.microsoft.com/pt-br/azure/azure-maps/how-to-request-weather-data
+Outra api da microsof
+https://www.agroapi.cnptia.embrapa.br/portal/
+Api oficial da embrapa
+
+Usar o firebase para fazer uma única chamada da api e armazenar no banco. 
 
 
