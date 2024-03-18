@@ -1,6 +1,6 @@
 window.onload = function(){
     GetDay();
-    // GetDayTides("11",Meses[2]);
+    GetDayTides("03",Meses[2]);
 };
 
 function GetDay(){    
@@ -11,20 +11,42 @@ function GetDay(){
     var year = today.getFullYear();
     var realDate = day + "/" + month + "/" + year;
     document.getElementById("Today").innerText += "" + realDate + "";
-    GetDayTides(day,Meses[today.getMonth()]); // aqui que chamo a função de plotar os dados
+    // GetDayTides(day,Meses[today.getMonth()]); // aqui que chamo a função de plotar os dados
 }
 
 function GetDayTides(day,month) {
     var weekDay = month[day].DIA;
     var moonPhase = month[day].LUA;
-    var FirstTide =  month[day]["BAIXA1"]["Horário"];
-    var FirstTideHeight = month[day]["BAIXA1"]["Altura"];
-    var SecondTide =  month[day]["ALTA1"]["Horário"];
-    var SecondTideHeight = month[day]["ALTA1"]["Altura"];
-    var ThirdTide =  month[day]["BAIXA2"]["Horário"];
-    var ThirdTideHeight = month[day]["BAIXA2"]["Altura"];
-    var FourthTide =  month[day]["ALTA2"]["Horário"];
-    var FourthTideHeight = month[day]["ALTA2"]["Altura"];
+    var FirstTide =  month[day]["ALTA1"]["Horário"];
+    var FirstTideHeight = month[day]["ALTA1"]["Altura"];
+    var SecondTide =  month[day]["BAIXA1"]["Horário"];
+    var SecondTideHeight = month[day]["BAIXA1"]["Altura"];
+    var ThirdTide =  month[day]["ALTA2"]["Horário"];
+    var ThirdTideHeight = month[day]["ALTA2"]["Altura"];
+
+
+    if (month[day]["BAIXA2"]) {
+
+        var FourthTide =  month[day]["BAIXA2"]["Horário"];
+        var FourthTideHeight = month[day]["BAIXA2"]["Altura"];
+        document.getElementById("tideType4").innerText =  (FourthTideHeight > ThirdTideHeight) ? "Maré Alta" : "Maré Baixa";
+        document.getElementById("FourthTide").innerText = FourthTide[0] + "" + FourthTide[1] + "h" + FourthTide[2] + "" + FourthTide[3] + "m";
+        document.getElementById("FourthTideHeight").innerText = FourthTideHeight + " m";
+    }else{ // Remove a quarta maré se ela não existir
+        let elemento = document.getElementById("tide4");  
+        elemento.parentElement.remove(elemento);
+    }
+
+
+    
+
+    // Veirifica as Marés se são de baixa ou de alta
+    document.getElementById("tideType1").innerText =  (FirstTideHeight > SecondTideHeight) ? "Maré Alta" : "Maré Baixa";
+    document.getElementById("tideType2").innerText =  (SecondTideHeight > FirstTideHeight) ? "Maré Alta" : "Maré Baixa";
+    document.getElementById("tideType3").innerText =  (ThirdTideHeight > SecondTideHeight) ? "Maré Alta" : "Maré Baixa";
+   
+
+
     document.getElementById("weekDay").innerText = "(" + weekDay + ")";
     document.getElementById("moon").innerText = "LUA " + moonPhase;
     document.getElementById("moonIcon").src = "./icones/"+moonPhase+".png";
@@ -34,6 +56,4 @@ function GetDayTides(day,month) {
     document.getElementById("SecondTideHeight").innerText = SecondTideHeight + " m";
     document.getElementById("ThirdTide").innerText = ThirdTide[0] + "" + ThirdTide[1] + "h" + ThirdTide[2] + "" + ThirdTide[3] + "m";
     document.getElementById("ThirdTideHeight").innerText = ThirdTideHeight + " m";
-    document.getElementById("FourthTide").innerText = FourthTide[0] + "" + FourthTide[1] + "h" + FourthTide[2] + "" + FourthTide[3] + "m";
-    document.getElementById("FourthTideHeight").innerText = FourthTideHeight + " m";
 }

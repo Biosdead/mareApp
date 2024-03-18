@@ -5,6 +5,21 @@
     <script src="index.js"></script>
     <script src="banco.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <style>
+      .lemon-regular {
+          font-family: "Lemon", serif;
+          font-weight: 400;
+          font-style: normal;
+      }
+      body{
+        font-family: 'Lemon', serif;
+      }
+    </style>
+
+
     <title>Maré App</title>
   </head>
 
@@ -26,36 +41,40 @@
           As Marés de hoje <span id="weekDay"></span>, são:
         </h3>
       </section>
+      <hr>
 
 
     <nav id="tides" class="level">
         <div class="level-item has-text-centered">
           <div>
-            <p class="heading">Baixa</p>
+            <p id="tideType1" class="heading">Baixa</p>
             <p id="FirstTide" class="title">3h44</p>
             <p class="heading">Altura</p>
             <p id="FirstTideHeight" class="title">1.0 m</p>
           </div>
         </div>
+        <hr>
         <div class="level-item has-text-centered">
           <div>
-            <p class="heading">Alta</p>
+            <p id="tideType2" class="heading">Alta</p>
             <p id="SecondTide" class="title">9h38</p>
             <p class="heading">Altura</p>
             <p id="SecondTideHeight" class="title">1.0 m</p>
           </div>
         </div>
+        <hr>
         <div class="level-item has-text-centered">
           <div>
-            <p class="heading">Baixa</p>
+            <p id="tideType3" class="heading">Baixa</p>
             <p id="ThirdTide" class="title">16h05</p>
             <p class="heading">Altura</p>
             <p id="ThirdTideHeight" class="title">1.0 m</p>
           </div>
         </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <p class="heading">Baixa</p>
+        <hr>
+        <div  class="level-item has-text-centered">
+          <div id="tide4">
+            <p id="tideType4" class="heading">Baixa</p>
             <p id="FourthTide" class="title">16h05</p>
             <p class="heading">Altura</p>
             <p id="FourthTideHeight" class="title">1.0 m</p>
@@ -71,7 +90,7 @@
     <div class="content has-text-centered">
       <p>
         <strong>Maré de Salinas App</strong> desenvolvido por <a href="sobre.html">Lennon Sales Furtado</a>. <br>
-        <i>Versão 0.5</i><small> - Sugestões ou apoio e-mail e pix: <a href="mailto:lennonsfurtado@gmail.com?subject = Sugestões(MePaga)&body = Gostaria de sugerir:">lennonsfurtado@gmail.com</a> </small>
+        <i>Versão 0.6</i><small> - Sugestões ou apoio e-mail e pix: <a href="mailto:lennonsfurtado@gmail.com?subject = Sugestões(MePaga)&body = Gostaria de sugerir:">lennonsfurtado@gmail.com</a> </small>
       </p>
     </div>
   </footer>
