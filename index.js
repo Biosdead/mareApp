@@ -1,6 +1,6 @@
 window.onload = function(){
     GetDay();
-    // GetDayTides("19",Meses[2]);
+    // GetDayTides("11",Meses[2]);
 };
 
 function GetDay(){    

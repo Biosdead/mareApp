@@ -18,11 +18,12 @@ V0.4
 Inserir os icônes da lua. Feito
 
 V0.5
-Como lidar com os dias que tem apenas 3 marés.
-Melhorar os icones da lua.
+Melhorar os icones da lua. Feito.
 
 V0.6
 Ordenar as marés conforme a tábua.
+Como lidar com os dias que tem apenas 3 marés.
+Criar butões para ver os próximos dias e os dias anteiroes.
 
 V0.7
 Fazer o mês de Abril,Maio,Junho,Julho. 
