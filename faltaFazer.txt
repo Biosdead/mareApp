@@ -26,12 +26,12 @@ Como lidar com os dias que tem apenas 3 marés. Feito
 Mudar Fonte. Feito.
 
 V0.7
-Criar butões para ver os próximos dias e os dias anteiroes.
-Fazer o mês de Abril,Maio,Junho,Julho. 
-Reduzir o tamanho da imagen de perfil.
+Fazer o mês de Abril,Maio. Feito
+Reduzir o tamanho da imagen de perfil. Feito
 
 V0.8
-Fazer o mês de Agosto,Setembro.
+Fazer o mês de Junho,Julho,Agosto,Setembro.
+Criar butões para ver os próximos dias e os dias anteiroes.
 
 V0.9
 Fazer o mês de Outubro,Novembro,Dezembro.
@@ -44,7 +44,18 @@ https://learn.microsoft.com/pt-br/azure/azure-maps/how-to-request-weather-data
 Outra api da microsof
 https://www.agroapi.cnptia.embrapa.br/portal/
 Api oficial da embrapa
-
 Usar o firebase para fazer uma única chamada da api e armazenar no banco. 
+Inserir anuncios do google
 
 
+v1.1 
+Hospedar no localweb ou no hostgathor
+
+
+2.0
+Sistemas de notificações (PUSH NOTIFICATIONS) de um webview para avisar quando a maré esté em estado crítico e seria bom tirar o carro da praia.
+notificações via html mesmo
+https://www.youtube.com/watch?v=K0rbtKDtDmA
+https://www.youtube.com/watch?v=Bm0JjR4kP8w
+https://www.youtube.com/watch?v=mhc7EHIgyrA
+https://www.youtube.com/watch?v=GDxj8KTmLrI

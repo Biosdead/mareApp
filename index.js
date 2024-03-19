@@ -1,6 +1,6 @@
 window.onload = function(){
     GetDay();
-    // GetDayTides("03",Meses[2]);
+    // GetDayTides("01",Meses[2]);
 };
 
 function GetDay(){    
