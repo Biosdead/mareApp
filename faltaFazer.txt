@@ -30,11 +30,14 @@ Fazer o mês de Abril,Maio. Feito
 Reduzir o tamanho da imagen de perfil. Feito
 
 V0.8
-Fazer o mês de Junho,Julho,Agosto,Setembro.
-Criar butões para ver os próximos dias e os dias anteiroes.
+Fazer o mês de Junho,Julho, Agosto, Setembro,Outubro,Novembro,Dezembro. Feito
+
 
 V0.9
-Fazer o mês de Outubro,Novembro,Dezembro.
+Corrigir as luas de Janeiro, Fevereiro, Março, Abril e Maio.
+Verificar NaNs e nulls em busca de dias sem marés.
+Verificar todos os dias de três marés para procurar erros ou inconcistências.
+Criar butões para ver os próximos dias e os dias anteiroes. 
 
 v1.0
 Mostrar a previsão do clima do dia.
@@ -51,6 +54,13 @@ Inserir anuncios do google
 v1.1 
 Hospedar no localweb ou no hostgathor
 
+v1.2
+Inserir Adsenses da google
+Colocar link para instalar o app no android.
+
+v1.3 
+Fazer uma api para servir com meu JSON. Só para aprender.
+
 
 2.0
 Sistemas de notificações (PUSH NOTIFICATIONS) de um webview para avisar quando a maré esté em estado crítico e seria bom tirar o carro da praia.
@@ -59,3 +69,10 @@ https://www.youtube.com/watch?v=K0rbtKDtDmA
 https://www.youtube.com/watch?v=Bm0JjR4kP8w
 https://www.youtube.com/watch?v=mhc7EHIgyrA
 https://www.youtube.com/watch?v=GDxj8KTmLrI
+
+https://www.youtube.com/watch?v=79fPyqgweT0
+https://www.youtube.com/watch?v=MZV_wE6_EGw
+https://www.youtube.com/watch?v=zUqALv074KE
+https://www.youtube.com/watch?v=Bm0JjR4kP8w
+https://www.youtube.com/watch?v=Tn6vEDrZjAU
+https://www.youtube.com/watch?v=-1qiPz3H954

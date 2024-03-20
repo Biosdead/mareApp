@@ -1,6 +1,12 @@
+var hoje = new Date();
+var dia = (hoje.getDate() < 10 ? "0" + hoje.getDate() : hoje.getDate());
+var mes = hoje.getMonth() + 1;
+var mesTemp = (mes < 10 ? "0" + mes : mes); 
+var ano = "2024"
+
 window.onload = function(){
     GetDay();
-    // GetDayTides("01",Meses[2]);
+    // GetDayTides("11",Meses[2]);
 };
 
 function GetDay(){    
@@ -56,4 +62,18 @@ function GetDayTides(day,month) {
     document.getElementById("SecondTideHeight").innerText = SecondTideHeight + " m";
     document.getElementById("ThirdTide").innerText = ThirdTide[0] + "" + ThirdTide[1] + "h" + ThirdTide[2] + "" + ThirdTide[3] + "m";
     document.getElementById("ThirdTideHeight").innerText = ThirdTideHeight + " m";
+}
+
+function NextDay() {
+    dia < Object.keys(Marco).length-1 ? dia++ : dia="01"
+    var DataReal = dia + "/" + mesTemp + "/" + ano;
+    document.getElementById("Today").innerText = "" + DataReal + "";
+    GetDayTides(dia,Meses[mes]);
+}
+
+function PreviousDay() {
+    dia--;
+    var DataReal = dia + "/" + mesTemp + "/" + ano;
+    document.getElementById("Today").innerText = "" + DataReal + "";
+    GetDayTides(dia,Meses[mes]);
 }
