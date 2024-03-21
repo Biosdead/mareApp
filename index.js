@@ -1,6 +1,6 @@
 var hoje = new Date();
 var dia = (hoje.getDate() < 10 ? "0" + hoje.getDate() : hoje.getDate());
-var mes = hoje.getMonth() + 1;
+var mes = hoje.getMonth()+1;
 var mesTemp = (mes < 10 ? "0" + mes : mes); 
 var ano = "2024"
 
@@ -32,6 +32,10 @@ function GetDayTides(day,month) {
 
 
     if (month[day]["BAIXA2"]) {
+        let elemento = document.getElementById("t4");  
+        elemento.classList.remove("invisible");
+        elemento.classList.add("visible");
+        // elemento.style.visibility="visible";
 
         var FourthTide =  month[day]["BAIXA2"]["Horário"];
         var FourthTideHeight = month[day]["BAIXA2"]["Altura"];
@@ -39,8 +43,12 @@ function GetDayTides(day,month) {
         document.getElementById("FourthTide").innerText = FourthTide[0] + "" + FourthTide[1] + "h" + FourthTide[2] + "" + FourthTide[3] + "m";
         document.getElementById("FourthTideHeight").innerText = FourthTideHeight + " m";
     }else{ // Remove a quarta maré se ela não existir
-        let elemento = document.getElementById("tide4");  
-        elemento.parentElement.remove(elemento);
+        let elemento = document.getElementById("t4");  
+        // elemento.style.visibility="hidden";
+        // elemento.parentElement.remove(elemento);
+        elemento.classList.remove("visible");
+        elemento.classList.add("invisible");
+        
     }
 
 
@@ -65,15 +73,25 @@ function GetDayTides(day,month) {
 }
 
 function NextDay() {
-    dia < Object.keys(Marco).length-1 ? dia++ : dia="01"
+    var mesReal = mes-1;
+    dia < Object.keys(Meses[mesReal]).length ? dia++ : dia="1"
+
+    if (dia < 10) {
+        dia = "0" + dia; 
+    }
+
     var DataReal = dia + "/" + mesTemp + "/" + ano;
     document.getElementById("Today").innerText = "" + DataReal + "";
-    GetDayTides(dia,Meses[mes]);
+    GetDayTides(dia,Meses[mesReal]);
 }
 
 function PreviousDay() {
-    dia--;
+    var mesReal = mes-1;
+    dia > 1 ? dia-- : dia=Object.keys(Meses[mesReal]).length;
+    if (dia < 10) {
+        dia = "0" + dia; 
+    }
     var DataReal = dia + "/" + mesTemp + "/" + ano;
     document.getElementById("Today").innerText = "" + DataReal + "";
-    GetDayTides(dia,Meses[mes]);
+    GetDayTides(dia,Meses[mesReal]);
 }

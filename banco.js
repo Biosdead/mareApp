@@ -500,7 +500,7 @@
         },
         "03": {
         "DIA": "DOM",
-        "LUA": "CHEIA",
+        "LUA": "MINGUANTE",
         "ALTA1": {"Altura": 1.6, "Horário": "0617"},
         "BAIXA1": {"Altura": 4.0, "Horário": "1213"},
         "ALTA2": {"Altura": 1.5, "Horário": "1856"}
@@ -554,7 +554,7 @@
         },
         "10": {
         "DIA": "DOM",
-        "LUA": "MINGUANTE",
+        "LUA": "NOVA",
         "ALTA1": {"Altura": -0.1, "Horário": "0149"},
         "BAIXA1": {"Altura": 5.3, "Horário": "0739"},
         "ALTA2": {"Altura": 0.0, "Horário": "1404"},
@@ -609,7 +609,7 @@
         },
           "17": {
             "DIA": "DOM",
-            "LUA": "NOVA",
+            "LUA": "CRESCENTE",
             "ALTA1": {"Altura": 3.9, "Horário": "0008"},
             "BAIXA1": {"Altura": 1.6, "Horário": "0615"},
             "ALTA2": {"Altura": 4.0, "Horário": "1217"},
@@ -672,7 +672,7 @@
           },
           "25": {
             "DIA": "SEG",
-            "LUA": "CRESCENTE",
+            "LUA": "CHEIA",
             "ALTA1": {"Altura": 0.6, "Horário": "0156"},
             "BAIXA1": {"Altura": 4.9, "Horário": "0745"},
             "ALTA2": {"Altura": 0.5, "Horário": "1404"},
@@ -741,7 +741,7 @@
         },
         "02": {
           "DIA": "TER",
-          "LUA": "CHEIA",
+          "LUA": "MINGUANTE",
           "ALTA1": {"Altura": 3.7, "Horário": "0038"},
           "BAIXA1": {"Altura": 1.8, "Horário": "0700"},
           "ALTA2": {"Altura": 4.0, "Horário": "1306"},
@@ -788,7 +788,7 @@
         },
         "08": {
           "DIA": "SEG",
-          "LUA": "MINGUANTE",
+          "LUA": "NOVA",
           "ALTA1": {"Altura": 0.1, "Horário": "0123"},
           "BAIXA1": {"Altura": 5.4, "Horário": "0715"},
           "ALTA2": {"Altura": -0.1, "Horário": "1349"},
@@ -844,7 +844,7 @@
         },
         "15": {
           "DIA": "SEG",
-          "LUA": "NOVA",
+          "LUA": "CRESCENTE",
           "ALTA1": {"Altura": 1.6, "Horário": "0554"},
           "BAIXA1": {"Altura": 4.0, "Horário": "1156"},
           "ALTA2": {"Altura": 1.6, "Horário": "1834"}
@@ -906,7 +906,7 @@
           },
           "23": {
           "DIA": "TER",
-          "LUA": "CRESCENTE",
+          "LUA": "CHEIA",
           "ALTA1": {"Altura": 0.7, "Horário": "0123"},
           "BAIXA1": {"Altura": 4.8, "Horário": "0711"},
           "ALTA2": {"Altura": 0.5, "Horário": "1343"},
@@ -1146,7 +1146,7 @@
         },
         "23": {
           "DIA": "QUI",
-          "LUA": "CRESCENTE",
+          "LUA": "CHEIA",
           "ALTA1": {"Altura": 0.9, "Horário": "0128"},
           "ALTA2": {"Altura": 4.8, "Horário": "0708"},
           "BAIXA1": {"Altura": 0.5, "Horário": "1354"},
@@ -1201,7 +1201,7 @@
         },
         "30": {
           "DIA": "QUI",
-          "LUA": "CHEIA",
+          "LUA": "MINGUANTE",
           "ALTA1": {"Altura": 1.0, "Horário": "0011"},
           "ALTA2": {"Altura": 4.1, "Horário": "0643"},
           "BAIXA1": {"Altura": 1.4, "Horário": "1239"},
@@ -1481,8 +1481,7 @@ Julho = {
       "LUA": "MINGUANTE",
       "ALTA1": {"Altura": 4.4, "Horário": "0458"},
       "BAIXA1": {"Altura": 0.9, "Horário": "1153"},
-      "ALTA2": {"Altura": 4.3, "Horário": "1754"},
-      "BAIXA2": {"Altura": null, "Horário": null}
+      "ALTA2": {"Altura": 4.3, "Horário": "1754"}
     },
     "04": {
       "DIA": "QUI",
@@ -1608,8 +1607,7 @@ Julho = {
         "LUA": "CRESCENTE",
         "ALTA1": {"Altura": 4.5, "Horário": "0511"},
         "BAIXA1": {"Altura": 1.0, "Horário": "1206"},
-        "ALTA2": {"Altura": 4.3, "Horário": "1800"},
-        "BAIXA2": {"Altura": null, "Horário": null}
+        "ALTA2": {"Altura": 4.3, "Horário": "1800"}
       },
       "20": {
         "DIA": "SAB",
@@ -1801,8 +1799,7 @@ Agosto = {
     "LUA": "CRESCENTE",
     "ALTA1": {"Altura": 1.3, "Horário": "0606"},
     "BAIXA1": {"Altura": 3.9, "Horário": "1200"},
-    "ALTA2": {"Altura": 1.5, "Horário": "1826"},
-    "BAIXA2": {"Altura": 4.7, "Horário": "null"}
+    "ALTA2": {"Altura": 1.5, "Horário": "1826"}
   },
   "13": {
     "DIA": "TER",
@@ -1841,8 +1838,7 @@ Agosto = {
       "LUA": "CRESCENTE",
       "ALTA1": {"Altura": 4.5, "Horário": "0449"},
       "BAIXA1": {"Altura": 1.0, "Horário": "1149"},
-      "ALTA2": {"Altura": 4.3, "Horário": "1743"},
-      "BAIXA2": {"Altura": null, "Horário": null}
+      "ALTA2": {"Altura": 4.3, "Horário": "1743"}
     },
     "18": {
       "DIA": "DOM",
@@ -2273,10 +2269,10 @@ Outubro = {
   },
   "10": {
     "DIA": "QUI",
-    "LUA": "CRESCENTE","ALTA1": {"Altura": 1.4, "Horário": "0609"},
+    "LUA": "CRESCENTE",
+    "ALTA1": {"Altura": 1.4, "Horário": "0609"},
     "BAIXA1": {"Altura": 3.6, "Horário": "1206"},
-    "ALTA2": {"Altura": 1.8, "Horário": "1834"},
-    "BAIXA2": {"Altura": 4.0, "Horário": "2324"}
+    "ALTA2": {"Altura": 1.8, "Horário": "1834"}
   },
   "11": {
     "DIA": "SEX",
@@ -2425,8 +2421,7 @@ Outubro = {
         "LUA": "MINGUANTE",
         "ALTA1": {"Altura": 4.4, "Horário": "0530"},
         "BAIXA1": {"Altura": 0.9, "Horário": "1156"},
-        "ALTA2": {"Altura": 4.6, "Horário": "1754"},
-        "BAIXA2": {"Altura": 4.0, "Horário": "NaN"}
+        "ALTA2": {"Altura": 4.6, "Horário": "1754"}
       },
       "30": {
         "DIA": "QUA",
@@ -2531,24 +2526,23 @@ Novembro = {
     "LUA": "CRESCENTE",
     "ALTA1": {"Altura": 4.4, "Horário": "0300"},
     "BAIXA1": {"Altura": 1.0, "Horário": "0936"},
-    "ALTA2": {"Altura": 4.4, "Horário": "2211"},
-    "BAIXA2": {"Altura": 1.0, "Horário": "NaN"}
+    "ALTA2": {"Altura": 4.4, "Horário": "1543"},
+    "BAIXA2": {"Altura": 1.0, "Horário": "2211"}
   },
   "12": {
     "DIA": "TER",
     "LUA": "CRESCENTE",
     "ALTA1": {"Altura": 4.7, "Horário": "0404"},
     "BAIXA1": {"Altura": 0.7, "Horário": "1038"},
-    "ALTA2": {"Altura": 4.7, "Horário": "2309"},
-    "BAIXA2": {"Altura": 0.6, "Horário": "NaN"}
+    "ALTA2": {"Altura": 4.7, "Horário": "1639"},
+    "BAIXA2": {"Altura": 0.6, "Horário": "2309"}
   },
   "13": {
     "DIA": "QUA",
     "LUA": "CRESCENTE",
     "ALTA1": {"Altura": 4.9, "Horário": "0504"},
     "BAIXA1": {"Altura": 0.5, "Horário": "1134"},
-    "ALTA2": {"Altura": 5.0, "Horário": "1732"},
-    "BAIXA2": {"Altura": 0.0, "Horário": "NaN"}
+    "ALTA2": {"Altura": 5.0, "Horário": "1732"}
   },
   "14": {
     "DIA": "QUI",

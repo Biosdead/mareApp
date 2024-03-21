@@ -34,12 +34,21 @@ Fazer o mês de Junho,Julho, Agosto, Setembro,Outubro,Novembro,Dezembro. Feito
 
 
 V0.9
-Corrigir as luas de Janeiro, Fevereiro, Março, Abril e Maio.
-Verificar NaNs e nulls em busca de dias sem marés.
-Verificar todos os dias de três marés para procurar erros ou inconcistências.
-Criar butões para ver os próximos dias e os dias anteiroes. 
+Corrigir as luas de Março, Abril e Maio. Feito 
+Verificar NaNs e nulls em busca de dias sem marés. Feito
+Verificar todos os dias de três marés para procurar erros ou inconcistências. Feito
+Criar butões para ver os próximos dias e os dias anteiroes. Feito
+Corrigir bug das três mares. Feito
+
 
 v1.0
+Inserir Adsenses da google
+Colocar link para instalar o app no android.
+Publicar no android
+
+
+
+v1.2
 Mostrar a previsão do clima do dia.
 https://hgbrasil.com/status/weather
 Essa api tem até icones sobre as fases da lua.
@@ -54,15 +63,13 @@ Inserir anuncios do google
 v1.1 
 Hospedar no localweb ou no hostgathor
 
-v1.2
-Inserir Adsenses da google
-Colocar link para instalar o app no android.
+
 
 v1.3 
 Fazer uma api para servir com meu JSON. Só para aprender.
 
 
-2.0
+1.4
 Sistemas de notificações (PUSH NOTIFICATIONS) de um webview para avisar quando a maré esté em estado crítico e seria bom tirar o carro da praia.
 notificações via html mesmo
 https://www.youtube.com/watch?v=K0rbtKDtDmA
