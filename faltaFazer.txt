@@ -40,30 +40,25 @@ Verificar todos os dias de três marés para procurar erros ou inconcistências.
 Criar butões para ver os próximos dias e os dias anteiroes. Feito
 Corrigir bug das três mares. Feito
 
+v0.91
+Inserir whetherApi
+
 
 v1.0
 Inserir Adsenses da google
-Colocar link para instalar o app no android.
 Publicar no android
 
-
+v1.1
+Colocar link para instalar o app no android.
+Hospedar no localweb ou no hostgathor
 
 v1.2
 Mostrar a previsão do clima do dia.
-https://hgbrasil.com/status/weather
-Essa api tem até icones sobre as fases da lua.
-https://learn.microsoft.com/pt-br/azure/azure-maps/how-to-request-weather-data
-Outra api da microsof
-https://www.agroapi.cnptia.embrapa.br/portal/
-Api oficial da embrapa
-Usar o firebase para fazer uma única chamada da api e armazenar no banco. 
-Inserir anuncios do google
-
-
-v1.1 
-Hospedar no localweb ou no hostgathor
-
-
+https://www.weatherapi.com/ estou usando essa aqui
+Ver se deixo ver a previsão do dia seguinte e anterior.
+Armazenar previsão no banco de dados.
+Harmonizar icones da previsão com a da lua
+traduzir previsão para pt-br tá, ver todos os possíveis climas para criar um vetor com o nome correto.
 
 v1.3 
 Fazer uma api para servir com meu JSON. Só para aprender.
@@ -72,12 +67,12 @@ Fazer uma api para servir com meu JSON. Só para aprender.
 1.4
 Sistemas de notificações (PUSH NOTIFICATIONS) de um webview para avisar quando a maré esté em estado crítico e seria bom tirar o carro da praia.
 notificações via html mesmo
-https://www.youtube.com/watch?v=K0rbtKDtDmA
+https://www.youtube.com/watch?v=K0rbtKDtDmA OK
 https://www.youtube.com/watch?v=Bm0JjR4kP8w
 https://www.youtube.com/watch?v=mhc7EHIgyrA
 https://www.youtube.com/watch?v=GDxj8KTmLrI
 
-https://www.youtube.com/watch?v=79fPyqgweT0
+https://www.youtube.com/watch?v=79fPyqgweT0 OK
 https://www.youtube.com/watch?v=MZV_wE6_EGw
 https://www.youtube.com/watch?v=zUqALv074KE
 https://www.youtube.com/watch?v=Bm0JjR4kP8w

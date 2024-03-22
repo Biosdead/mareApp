@@ -51,9 +51,12 @@
         <h1 class="title" id="Today"></h1>
         <h2 id="moon">Dia de lua Cheia</h2>
         <img id="moonIcon" src="" width=10%" alt="Moon Phases">
-        <h3 class="subtitle">
+        <h3 id="temp_c">Temperatura: 23°C</h3>
+        <h3 id="weatherCondition">Chuva Leve</h3>
+        <img id="weatherIcon" src="" width=10%" alt="Weather Condition">
+        <h4 class="subtitle">
           As Marés de hoje <span id="weekDay"></span>, são:
-        </h3>
+        </h4>
       </section>
       <hr>
 
@@ -97,14 +100,16 @@
       </nav>
 
       <div id="btns" class=" has-text-centered">
-        <button onclick="PreviousDay()" class="button is-medium is-primary is-rounded is-outlined">Anterior</button>
-        <button onclick="NextDay()" class="button is-medium is-primary is-rounded is-outlined">Seguinte</button>
+        <button onclick="PreviousDay()" class="button is-medium is-primary is-rounded is-outlined"> Dia Anterior</button>
+        <button onclick="NextDay()" class="button is-medium is-primary is-rounded is-outlined">Dia Seguinte</button>
+        <button onclick="callApi()" class="button is-medium is-primary is-rounded is-outlined">API</button>
       </div>
 
   </body>
 
 
   <footer class="footer">
+    <script src="api.js"></script>
     <div class=" has-text-centered">
       <p>
         <strong>Maré de Salinas App</strong> desenvolvido por <a href="sobre.html">Lennon Sales Furtado</a>. <br>
