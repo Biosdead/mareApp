@@ -1,5 +1,7 @@
+// https://www.weatherapi.com/
+
 // Define the API URL
-const apiUrl = 'http://api.weatherapi.com/v1/current.json?key=cd788cab19704afa8fd193536242203&q=Salinópolis&aqi=yes&lang=pt';
+const apiUrl = 'https://api.weatherapi.com/v1/current.json?key=cd788cab19704afa8fd193536242203&q=Salinópolis&aqi=yes&lang=pt';
 var weatherData;
 var temp_c = document.getElementById("temp_c");
 var weatherCondition = document.getElementById("weatherCondition");

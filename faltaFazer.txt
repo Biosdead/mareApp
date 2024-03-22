@@ -42,6 +42,8 @@ Corrigir bug das três mares. Feito
 
 v0.91
 Inserir whetherApi
+Mudei para o procolo https devido a bloqueio do github
+Escolher icone da aplicação
 
 
 v1.0
@@ -59,6 +61,7 @@ Ver se deixo ver a previsão do dia seguinte e anterior.
 Armazenar previsão no banco de dados.
 Harmonizar icones da previsão com a da lua
 traduzir previsão para pt-br tá, ver todos os possíveis climas para criar um vetor com o nome correto.
+Se não houver previsão no banco de dados chamar a api para armazenar no banco de dados e depois chamar novamente o banco com os dados do clima atual.
 
 v1.3 
 Fazer uma api para servir com meu JSON. Só para aprender.
