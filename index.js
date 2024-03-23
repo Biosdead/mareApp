@@ -18,6 +18,7 @@ function GetDay(){
     var realDate = day + "/" + month + "/" + year;
     document.getElementById("Today").innerText += "" + realDate + "";
     GetDayTides(day,Meses[today.getMonth()]); // aqui que chamo a função de plotar os dados
+    callApi();
 }
 
 function GetDayTides(day,month) {

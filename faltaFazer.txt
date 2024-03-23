@@ -41,10 +41,12 @@ Criar butões para ver os próximos dias e os dias anteiroes. Feito
 Corrigir bug das três mares. Feito
 
 v0.91
-Inserir whetherApi
-Mudei para o procolo https devido a bloqueio do github
+Inserir whetherApi. Feito
+Mudei para o procolo https devido a bloqueio do github. Feito
 Escolher icone da aplicação
 
+v0.92
+Teste
 
 v1.0
 Inserir Adsenses da google
