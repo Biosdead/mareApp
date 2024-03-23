@@ -6,6 +6,7 @@ var weatherData;
 var temp_c = document.getElementById("temp_c");
 var weatherCondition = document.getElementById("weatherCondition");
 var weatherIcon = document.getElementById("weatherIcon");
+var sensation_c = document.getElementById("sensation_c");
 
 function callApi(){
 // Make a GET request
@@ -20,8 +21,9 @@ fetch(apiUrl)
     console.log(data);
     weatherData = data;
     temp_c.innerText = "Temperatura: " + weatherData.current.temp_c + "°C";
-    weatherCondition.innerText = weatherData.current.condition.text;
+    weatherCondition.innerText = "Previsão do clima: " + weatherData.current.condition.text;
     weatherIcon.src = weatherData.current.condition.icon;
+    sensation_c.innerText = "Sensação Térmica: " + weatherData.current.feelslike_c + "°C";
   })
   .catch(error => {
     console.error('Error:', error);

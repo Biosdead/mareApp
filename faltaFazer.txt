@@ -43,14 +43,18 @@ Corrigir bug das três mares. Feito
 v0.91
 Inserir whetherApi. Feito
 Mudei para o procolo https devido a bloqueio do github. Feito
-Escolher icone da aplicação
 
-v0.92
-Teste
+
+v0.95
+Tirei o icone da lua. Feito
+Tirei os botões. Feito
+Inseri Sensação Térmica. Feito
+
 
 v1.0
 Inserir Adsenses da google
 Publicar no android
+Escolher icone da aplicação
 
 v1.1
 Colocar link para instalar o app no android.
