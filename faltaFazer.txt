@@ -56,7 +56,20 @@ https://www.weatherapi.com/ estou usando essa aqui Feito
 Esperar a imagem carregar para depois mostrar a página. Feito
 
 
-1.0
+v1.0
+Inserir Adsenses da google
+Publicar no android
+Escolher icone da aplicação
+Escolher banner para o android
+Mudar Aguaceiro por chuva forte, súbita e passageira.
+traduzir previsão para pt-br tá, ver todos os possíveis climas para criar um vetor com o nome correto.
+
+v1.1
+Colocar link para instalar o app no android.
+Hospedar no localweb ou no hostgathor
+Ajustar o texto para pt-br da condição do clima.
+
+1.2
 Sistemas de notificações (PUSH NOTIFICATIONS) de um webview para avisar quando a maré esté em estado crítico e seria bom tirar o carro da praia.
 notificações via html mesmo
 https://www.youtube.com/watch?v=K0rbtKDtDmA OK
@@ -72,18 +85,7 @@ https://www.youtube.com/watch?v=Tn6vEDrZjAU
 https://www.youtube.com/watch?v=-1qiPz3H954
 
 
-v1.1
-Inserir Adsenses da google
-Publicar no android
-Escolher icone da aplicação
-Escolher banner para o android
-Mudar Aguaceiro por chuva forte, súbita e passageira.
-traduzir previsão para pt-br tá, ver todos os possíveis climas para criar um vetor com o nome correto.
 
-v1.2
-Colocar link para instalar o app no android.
-Hospedar no localweb ou no hostgathor
-Ajustar o texto para pt-br da condição do clima.
 
 v1.3 
 Fazer uma api para servir com meu JSON. Só para aprender.
