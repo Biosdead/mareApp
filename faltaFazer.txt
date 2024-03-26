@@ -57,9 +57,9 @@ Esperar a imagem carregar para depois mostrar a página. Feito
 
 
 v1.0
-Publicar no android
+Publicar no android. Feito.
 Escolher icone da aplicação. Feito
-Escolher banner para o android.
+Escolher banner para o android. Feito
 Hospedar no localweb ou no hostgathor. Feito
 
 v1.1
