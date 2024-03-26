@@ -57,18 +57,19 @@ Esperar a imagem carregar para depois mostrar a página. Feito
 
 
 v1.0
-Inserir Adsenses da google
 Publicar no android
-Escolher icone da aplicação
-Escolher banner para o android
+Escolher icone da aplicação. Feito
+Escolher banner para o android.
+Hospedar no localweb ou no hostgathor. Feito
+
+v1.1
+Inserir Adsenses da google
+Colocar link para instalar o app no android.
+Ajustar o texto para pt-br da condição do clima.
 Mudar Aguaceiro por chuva forte, súbita e passageira.
 traduzir previsão para pt-br tá, ver todos os possíveis climas para criar um vetor com o nome correto.
 Estudar https://onesignal.com/ para push notifications
 
-v1.1
-Colocar link para instalar o app no android.
-Hospedar no localweb ou no hostgathor
-Ajustar o texto para pt-br da condição do clima.
 
 1.2
 Sistemas de notificações (PUSH NOTIFICATIONS) de um webview para avisar quando a maré esté em estado crítico e seria bom tirar o carro da praia.
