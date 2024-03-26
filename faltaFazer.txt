@@ -63,6 +63,7 @@ Escolher icone da aplicação
 Escolher banner para o android
 Mudar Aguaceiro por chuva forte, súbita e passageira.
 traduzir previsão para pt-br tá, ver todos os possíveis climas para criar um vetor com o nome correto.
+Estudar https://onesignal.com/ para push notifications
 
 v1.1
 Colocar link para instalar o app no android.
