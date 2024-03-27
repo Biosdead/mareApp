@@ -63,8 +63,8 @@ Escolher banner para o android. Feito
 Hospedar no localweb ou no hostgathor. Feito
 
 v1.1
+Colocar link para instalar o app no android. Feito
 Inserir Adsenses da google
-Colocar link para instalar o app no android.
 Ajustar o texto para pt-br da condição do clima.
 Mudar Aguaceiro por chuva forte, súbita e passageira.
 traduzir previsão para pt-br tá, ver todos os possíveis climas para criar um vetor com o nome correto.
