@@ -24,6 +24,7 @@ fetch(apiUrl)
     weatherCondition.innerText = "Previsão do clima: " + weatherData.current.condition.text;
     weatherIcon.src = weatherData.current.condition.icon;
     sensation_c.innerText = "Sensação Térmica: " + weatherData.current.feelslike_c + "°C";
+    weatherIcon.classList.remove("loader");
   })
   .catch(error => {
     console.error('Error:', error);
