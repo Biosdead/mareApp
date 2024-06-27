@@ -1428,7 +1428,7 @@ Junho = {
       "DIA": "QUI",
       "LUA": "CHEIA",
       "BAIXA1": {"Altura": 0.9, "Horário": "0532"},
-      "ALTA2": {"Altura": 4.7, "Horário": "1121"},
+      "ALTA1": {"Altura": 4.7, "Horário": "1121"},
       "BAIXA1": {"Altura": 0.7, "Horário": "1756"},
       "ALTA2": {"Altura": 4.5, "Horário": "2349"}
       },
