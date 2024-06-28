@@ -1437,7 +1437,7 @@ Junho = {
       "LUA": "MINGUANTE",
       "BAIXA1": {"Altura": 1.0, "Horário": "0617"},
       "ALTA1": {"Altura": 4.5, "Horário": "1211"},
-      "BAIXA2": {"Altura": 0.9, "Horário": "1843"}
+      "ALTA2": {"Altura": 0.9, "Horário": "1843"}
       },
       "29": {
       "DIA": "SAB",
