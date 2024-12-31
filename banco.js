@@ -1,8 +1,12 @@
 
-     
+     // tenho três dias para converter o novo valor
      
      Janeiro =  {
+<<<<<<< HEAD
      "01": {
+=======
+      "01": {
+>>>>>>> e538c43 (Prévia do Ano Novo - 10 primeiros dias)
         "DIA": "QUA",
         "BAIXA1": {"Altura": 0.57, "Horário": "0246"},
         "ALTA1": {"Altura": 4.61, "Horário": "0814"},
@@ -71,8 +75,11 @@
         "BAIXA2": {"Altura": 4.53, "Horário": "1631"},
         "ALTA2": {"Altura": 0.83, "Horário": "2319"}
       },
+<<<<<<< HEAD
 
           
+=======
+>>>>>>> e538c43 (Prévia do Ano Novo - 10 primeiros dias)
       // "01": {
       //   "DIA": "SEG",
       //   "LUA": "CHEIA",
