@@ -5,8 +5,8 @@ var mesTemp = (mes < 10 ? "0" + mes : mes);
 var ano = "2024"
 
 window.onload = function(){
-    GetDay();
-    // GetDayTides("11",Meses[2]);
+    // GetDay();
+    GetDayTides("10",Meses[2]);
 };
 
 function GetDay(){    
@@ -24,22 +24,22 @@ function GetDay(){
 function GetDayTides(day,month) {
     var weekDay = month[day].DIA;
     var moonPhase = month[day].LUA;
-    var FirstTide =  month[day]["ALTA1"]["Horário"];
-    var FirstTideHeight = month[day]["ALTA1"]["Altura"];
-    var SecondTide =  month[day]["BAIXA1"]["Horário"];
-    var SecondTideHeight = month[day]["BAIXA1"]["Altura"];
-    var ThirdTide =  month[day]["ALTA2"]["Horário"];
-    var ThirdTideHeight = month[day]["ALTA2"]["Altura"];
+    var FirstTide =  month[day]["MARE1"]["Horário"];
+    var FirstTideHeight = month[day]["MARE1"]["Altura"];
+    var SecondTide =  month[day]["MARE2"]["Horário"];
+    var SecondTideHeight = month[day]["MARE2"]["Altura"];
+    var ThirdTide =  month[day]["MARE3"]["Horário"];
+    var ThirdTideHeight = month[day]["MARE3"]["Altura"];
 
 
-    if (month[day]["BAIXA2"]) {
+    if (month[day]["MARE4"]) {
         let elemento = document.getElementById("t4");  
         elemento.classList.remove("invisible");
         elemento.classList.add("visible");
         // elemento.style.visibility="visible";
 
-        var FourthTide =  month[day]["BAIXA2"]["Horário"];
-        var FourthTideHeight = month[day]["BAIXA2"]["Altura"];
+        var FourthTide =  month[day]["MARE4"]["Horário"];
+        var FourthTideHeight = month[day]["MARE4"]["Altura"];
         document.getElementById("tideType4").innerText =  (FourthTideHeight > ThirdTideHeight) ? "Maré Alta" : "Maré Baixa";
         document.getElementById("FourthTide").innerText = FourthTide[0] + "" + FourthTide[1] + "h" + FourthTide[2] + "" + FourthTide[3] + "m";
         document.getElementById("FourthTideHeight").innerText = FourthTideHeight + " m";

@@ -1,0 +1,5 @@
+Primeiro converta o pdf de tabua das marés em um excel e
+depois passe os dados brutos de cadas mês para gpt converter 
+no JSON segundo o formato do json do banco.
+
+Passei sempre dos dias 1-16 e depois 17-31 para o gpt.
