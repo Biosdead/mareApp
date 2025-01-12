@@ -6,7 +6,7 @@ var ano = "2024"
 
 window.onload = function(){
     GetDay();
-    // GetDayTides("10",Meses[1]);
+    // GetDayTides("11",Meses[0]);
 };
 
 function GetDay(){    
@@ -23,7 +23,7 @@ function GetDay(){
 
 function GetDayTides(day,month) {
     var weekDay = month[day].DIA;
-    var moonPhase = month[day].LUA;
+    // var moonPhase = month[day].LUA;
     var FirstTide =  month[day]["MARE1"]["Horário"];
     var FirstTideHeight = month[day]["MARE1"]["Altura"];
     var SecondTide =  month[day]["MARE2"]["Horário"];
