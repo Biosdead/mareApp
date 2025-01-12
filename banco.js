@@ -1056,6 +1056,215 @@ Maio = {
 };
 
 
+Junho = {
+  "01": {
+    "DIA": "DOM",
+    "MARE1": {"Altura": 1.04, "Horário": "0531"},
+    "MARE2": {"Altura": 4.32, "Horário": "1116"},
+    "MARE3": {"Altura": 0.93, "Horário": "1801"}
+  },
+  "02": {
+    "DIA": "SEG",
+    "MARE1": {"Altura": 4.14, "Horário": "0006"},
+    "MARE2": {"Altura": 1.25, "Horário": "0612"},
+    "MARE3": {"Altura": 4.07, "Horário": "1206"},
+    "MARE4": {"Altura": 1.15, "Horário": "1844"}
+  },
+  "03": {
+    "DIA": "TER",
+    "MARE1": {"Altura": 3.99, "Horário": "0101"},
+    "MARE2": {"Altura": 1.40, "Horário": "0706"},
+    "MARE3": {"Altura": 3.88, "Horário": "1304"},
+    "MARE4": {"Altura": 1.33, "Horário": "1936"}
+  },
+  "04": {
+    "DIA": "QUA",
+    "MARE1": {"Altura": 3.92, "Horário": "0155"},
+    "MARE2": {"Altura": 1.46, "Horário": "0812"},
+    "MARE3": {"Altura": 3.77, "Horário": "1404"},
+    "MARE4": {"Altura": 1.40, "Horário": "2042"}
+  },
+  "05": {
+    "DIA": "QUI",
+    "MARE1": {"Altura": 3.92, "Horário": "0249"},
+    "MARE2": {"Altura": 1.39, "Horário": "0916"},
+    "MARE3": {"Altura": 3.76, "Horário": "1510"},
+    "MARE4": {"Altura": 1.37, "Horário": "2146"}
+  },
+  "06": {
+    "DIA": "SEX",
+    "MARE1": {"Altura": 4.00, "Horário": "0340"},
+    "MARE2": {"Altura": 1.23, "Horário": "1014"},
+    "MARE3": {"Altura": 3.84, "Horário": "1614"},
+    "MARE4": {"Altura": 1.27, "Horário": "2240"}
+  },
+  "07": {
+    "DIA": "SÁB",
+    "MARE1": {"Altura": 4.14, "Horário": "0431"},
+    "MARE2": {"Altura": 1.05, "Horário": "1108"},
+    "MARE3": {"Altura": 3.99, "Horário": "1710"},
+    "MARE4": {"Altura": 1.15, "Horário": "2331"}
+  },
+  "08": {
+    "DIA": "DOM",
+    "MARE1": {"Altura": 4.29, "Horário": "0517"},
+    "MARE2": {"Altura": 0.86, "Horário": "1202"},
+    "MARE3": {"Altura": 4.15, "Horário": "1801"}
+  },
+  "09": {
+    "DIA": "SEG",
+    "MARE1": {"Altura": 1.03, "Horário": "0017"},
+    "MARE2": {"Altura": 4.44, "Horário": "0602"},
+    "MARE3": {"Altura": 0.72, "Horário": "1253"},
+    "MARE4": {"Altura": 4.28, "Horário": "1847"}
+  },
+  "10": {
+    "DIA": "TER",
+    "MARE1": {"Altura": 0.93, "Horário": "0102"},
+    "MARE2": {"Altura": 4.55, "Horário": "0647"},
+    "MARE3": {"Altura": 0.63, "Horário": "1340"},
+    "MARE4": {"Altura": 4.35, "Horário": "1927"}
+  },
+  "11": {
+    "DIA": "QUA",
+    "MARE1": {"Altura": 0.89, "Horário": "0151"},
+    "MARE2": {"Altura": 4.60, "Horário": "0725"},
+    "MARE3": {"Altura": 0.59, "Horário": "1417"},
+    "MARE4": {"Altura": 4.37, "Horário": "2004"}
+  },
+  "12": {
+    "DIA": "QUI",
+    "MARE1": {"Altura": 0.90, "Horário": "0227"},
+    "MARE2": {"Altura": 4.62, "Horário": "0802"},
+    "MARE3": {"Altura": 0.58, "Horário": "1501"},
+    "MARE4": {"Altura": 4.35, "Horário": "2044"}
+  },
+  "13": {
+    "DIA": "SEX",
+    "MARE1": {"Altura": 0.89, "Horário": "0302"},
+    "MARE2": {"Altura": 4.59, "Horário": "0842"},
+    "MARE3": {"Altura": 0.63, "Horário": "1540"},
+    "MARE4": {"Altura": 4.32, "Horário": "2116"}
+  },
+  "14": {
+    "DIA": "SÁB",
+    "MARE1": {"Altura": 0.91, "Horário": "0344"},
+    "MARE2": {"Altura": 4.57, "Horário": "0914"},
+    "MARE3": {"Altura": 0.65, "Horário": "1606"},
+    "MARE4": {"Altura": 4.29, "Horário": "2155"}
+  },
+  "15": {
+    "DIA": "DOM",
+    "MARE1": {"Altura": 0.92, "Horário": "0416"},
+    "MARE2": {"Altura": 4.55, "Horário": "1001"},
+    "MARE3": {"Altura": 0.66, "Horário": "1647"},
+    "MARE4": {"Altura": 4.27, "Horário": "2236"}
+  },
+  "16": {
+    "DIA": "SEG",
+    "MARE1": {"Altura": 0.91, "Horário": "0457"},
+    "MARE2": {"Altura": 4.51, "Horário": "1049"},
+    "MARE3": {"Altura": 0.68, "Horário": "1723"},
+    "MARE4": {"Altura": 4.27, "Horário": "2317"}
+  },
+  "17": {
+    "DIA": "TER",
+    "MARE1": {"Altura": 0.92, "Horário": "0546"},
+    "MARE2": {"Altura": 4.44, "Horário": "1138"},
+    "MARE3": {"Altura": 0.71, "Horário": "1806"}
+  },
+  "18": {
+    "DIA": "QUA",
+    "MARE1": {"Altura": 4.28, "Horário": "0006"},
+    "MARE2": {"Altura": 0.95, "Horário": "0638"},
+    "MARE3": {"Altura": 4.37, "Horário": "1232"},
+    "MARE4": {"Altura": 0.79, "Horário": "1902"}
+  },
+  "19": {
+    "DIA": "QUI",
+    "MARE1": {"Altura": 4.30, "Horário": "0102"},
+    "MARE2": {"Altura": 0.95, "Horário": "0738"},
+    "MARE3": {"Altura": 4.30, "Horário": "1334"},
+    "MARE4": {"Altura": 0.87, "Horário": "2002"}
+  },
+  "20": {
+    "DIA": "SEX",
+    "MARE1": {"Altura": 4.35, "Horário": "0202"},
+    "MARE2": {"Altura": 0.91, "Horário": "0846"},
+    "MARE3": {"Altura": 4.25, "Horário": "1442"},
+    "MARE4": {"Altura": 0.92, "Horário": "2106"}
+  },
+  "21": {
+    "DIA": "SÁB",
+    "MARE1": {"Altura": 4.42, "Horário": "0306"},
+    "MARE2": {"Altura": 0.83, "Horário": "0953"},
+    "MARE3": {"Altura": 4.27, "Horário": "1555"},
+    "MARE4": {"Altura": 0.92, "Horário": "2216"}
+  },
+  "22": {
+    "DIA": "DOM",
+    "MARE1": {"Altura": 4.52, "Horário": "0410"},
+    "MARE2": {"Altura": 0.74, "Horário": "1104"},
+    "MARE3": {"Altura": 4.37, "Horário": "1704"},
+    "MARE4": {"Altura": 0.88, "Horário": "2327"}
+  },
+  "23": {
+    "DIA": "SEG",
+    "MARE1": {"Altura": 4.65, "Horário": "0516"},
+    "MARE2": {"Altura": 0.59, "Horário": "1225"},
+    "MARE3": {"Altura": 4.52, "Horário": "1812"}
+  },
+  "24": {
+    "DIA": "TER",
+    "MARE1": {"Altura": 0.77, "Horário": "0040"},
+    "MARE2": {"Altura": 4.80, "Horário": "0616"},
+    "MARE3": {"Altura": 0.40, "Horário": "1334"},
+    "MARE4": {"Altura": 4.66, "Horário": "1912"}
+  },
+  "25": {
+    "DIA": "QUA",
+    "MARE1": {"Altura": 0.62, "Horário": "0142"},
+    "MARE2": {"Altura": 4.91, "Horário": "0712"},
+    "MARE3": {"Altura": 0.24, "Horário": "1425"},
+    "MARE4": {"Altura": 4.76, "Horário": "2004"}
+  },
+  "26": {
+    "DIA": "QUI",
+    "MARE1": {"Altura": 0.53, "Horário": "0232"},
+    "MARE2": {"Altura": 4.96, "Horário": "0802"},
+    "MARE3": {"Altura": 0.17, "Horário": "1508"},
+    "MARE4": {"Altura": 4.78, "Horário": "2053"}
+  },
+  "27": {
+    "DIA": "SEX",
+    "MARE1": {"Altura": 0.51, "Horário": "0312"},
+    "MARE2": {"Altura": 4.92, "Horário": "0849"},
+    "MARE3": {"Altura": 0.23, "Horário": "1557"},
+    "MARE4": {"Altura": 4.71, "Horário": "2136"}
+  },
+  "28": {
+    "DIA": "SÁB",
+    "MARE1": {"Altura": 0.56, "Horário": "0359"},
+    "MARE2": {"Altura": 4.80, "Horário": "0929"},
+    "MARE3": {"Altura": 0.41, "Horário": "1631"},
+    "MARE4": {"Altura": 4.59, "Horário": "2210"}
+  },
+  "29": {
+    "DIA": "DOM",
+    "MARE1": {"Altura": 0.71, "Horário": "0436"},
+    "MARE2": {"Altura": 4.63, "Horário": "1008"},
+    "MARE3": {"Altura": 0.60, "Horário": "1701"},
+    "MARE4": {"Altura": 4.44, "Horário": "2253"}
+  },
+  "30": {
+    "DIA": "SEG",
+    "MARE1": {"Altura": 0.87, "Horário": "0504"},
+    "MARE2": {"Altura": 4.41, "Horário": "1051"},
+    "MARE3": {"Altura": 0.81, "Horário": "1729"},
+    "MARE4": {"Altura": 4.27, "Horário": "2331"}
+  }
+}
+
 Julho = {
 
 

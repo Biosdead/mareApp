@@ -5,8 +5,8 @@ var mesTemp = (mes < 10 ? "0" + mes : mes);
 var ano = "2024"
 
 window.onload = function(){
-    // GetDay();
-    GetDayTides("10",Meses[2]);
+    GetDay();
+    // GetDayTides("10",Meses[1]);
 };
 
 function GetDay(){    
