@@ -89,14 +89,13 @@ https://www.youtube.com/watch?v=-1qiPz3H954
 
 
 
-v1.3 
-Fazer uma api para servir com meu JSON. Só para aprender.
-Ver se deixo ver a previsão do dia seguinte e anterior.
+v1.3 (Atual)
+cor usado no loader anteriormente: #48C78E
+HTML totalmente refeito para SEO pelo o1 chat gpt
+
+
+v1.4
 Refatorar código a ponto de deixar as funcionalidades dos botões em uma função js.
 Armazenar previsão no banco de dados.
 Se não houver previsão no banco de dados chamar a api para armazenar no banco de dados e depois chamar novamente o banco com os dados do clima atual.
-
-
-
-cor usado no loader anteriormente: #48C78E
 

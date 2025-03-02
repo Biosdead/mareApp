@@ -1,0 +1,128 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Confira os horários de maré alta e baixa hoje em Salinópolis (Salinas-PA). Tábua de Marés completa para banhistas se programarem!">
+  <meta property="og:title" content="Maré em Salinópolis (Salinas) Hoje" />
+  <meta property="og:description"
+    content="Tábua de maré e horários de maré alta e baixa para quem vai à praia em Salinópolis. Confira!" />
+  <meta property="og:image" content="URL_da_sua_imagem.jpg" />
+  <meta property="og:url" content="https://maresdesalinas.com.br" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <script src="index.js"></script>
+  <script src="banco.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8048981882025505"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Maré em Salinópolis (Salinas) Hoje | Tábua de Maré e Horários</title>
+  <link rel="icon" type="image/x-icon" href="./icones/favicon.ico">
+  <meta name="google-adsense-account" content="ca-pub-8048981882025505">
+</head>
+
+
+<header class="hero is-info has-text-centered">
+  <div class="hero-body">
+    <h1 class="title">Maré em Salinópolis (Salinas) Hoje</h1>
+    <hr>
+    <p class="subtitle">Horários de Baixa e Préamar (Maré Alta) – Atualizado diariamente</p>
+  </div>
+</header>
+
+<body>
+
+
+  <section class="section has-text-centered">
+    <h1 class="title" id="Today"></h1>
+    <!-- <h2 id="moon">Dia de lua Cheia</h2>
+        <img id="moonIcon" src="" width=20%" alt="Moon Phases"> -->
+    <hr>
+    <h1 class="title" id="clima">Clima</h1>
+    <h3 id="temp_c">Temperatura: Carregando...</h3>
+    <h3 id="sensation_c">Sensação Térmicia: Carregando...</h3>
+    <h3 id="weatherCondition">Previsão: Carregando...</h3>
+    <img class="loader" id="weatherIcon" src="./icones/loading.gif" width=30%" alt="Weather Condition">
+    <hr>
+    <h4 class="title">
+      Confira abaixo a tábua de maré em Salinas hoje <span id="weekDay"></span>:
+    </h4>
+  </section>
+
+  <nav id="tides" class="level">
+    <div class="level-item has-text-centered">
+      <div>
+        <p id="tideType1" class="heading">Baixa</p>
+        <p id="FirstTide" class="title">3h44</p>
+        <p class="heading">Altura</p>
+        <p id="FirstTideHeight" class="title">1.0 m</p>
+      </div>
+    </div>
+    <hr>
+    <div class="level-item has-text-centered">
+      <div>
+        <p id="tideType2" class="heading">Alta</p>
+        <p id="SecondTide" class="title">9h38</p>
+        <p class="heading">Altura</p>
+        <p id="SecondTideHeight" class="title">1.0 m</p>
+      </div>
+    </div>
+    <hr>
+    <div class="level-item has-text-centered">
+      <div>
+        <p id="tideType3" class="heading">Baixa</p>
+        <p id="ThirdTide" class="title">16h05</p>
+        <p class="heading">Altura</p>
+        <p id="ThirdTideHeight" class="title">1.0 m</p>
+      </div>
+    </div>
+    <hr>
+    <div id="t4" class="level-item has-text-centered invisible">
+      <div id="tide4">
+        <p id="tideType4" class="heading">Baixa</p>
+        <p id="FourthTide" class="title">16h05</p>
+        <p class="heading">Altura</p>
+        <p id="FourthTideHeight" class="title">1.0 m</p>
+      </div>
+    </div>
+  </nav>
+
+  <div id="btns" class=" has-text-centered">
+    <!-- <button onclick="PreviousDay()" class="button is-medium is-primary is-rounded is-outlined"> Dia Anterior</button>
+        <button onclick="NextDay()" class="button is-medium is-primary is-rounded is-outlined">Dia Seguinte</button> -->
+    <!-- <button onclick="callApi()" class="button is-medium is-primary is-rounded is-outlined">API</button> -->
+  </div>
+
+</body>
+
+
+<footer class="footer">
+  <script src="api.js"></script>
+  <div class=" has-text-centered">
+    <p>
+      <strong>Marés de Salinas</strong> - desenvolvido por <a href="sobre.html">Lennon Sales Furtado</a>. <br>
+      <hr>
+      <i>Versão 1.4</i><small> - Sugestões ou apoio e-mail e pix: <a
+          href="mailto:lennonsfurtado@gmail.com?subject = Sugestões(Marés de Salinas)&body = Gostaria de sugerir:">lennonsfurtado@gmail.com</a>
+      </small>
+    </p>
+    <br>
+    <small>Baixe o aplicativo para Android no link abaixo:</small>
+    <br>
+    <a href="https://play.google.com/store/apps/details?id=co.median.android.plaerl"><img
+        src="./imagens/disponivel-google-play-badge-1.png" alt="Disponível no Google Play" width="35%"></a>
+  </div>
+  <div id="ads300x250">
+    <script async="async" data-cfasync="false"
+      src="//pl25716889.profitablecpmrate.com/ad76d6c58cd9d12359d5cf78859e8870/invoke.js"></script>
+    <div id="container-ad76d6c58cd9d12359d5cf78859e8870"></div>
+  </div>
+</footer>
+
+</html>
